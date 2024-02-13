@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ma Boutique de Bijoux</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="banniere">
+    <img src="images/bg.jpg" alt="Bannière de la boutique" class="image-banniere">
+      <div class="contenu-banniere">
+
+    <a href="boutique.html" class="bouton">Shoppez maintenant</a>
+      </div>
+  </section>
+
+
+  <section class="container1">
+    <ul>
+      <img src="images/bannerCo.jpg" alt="Image 3" height="50%" width="40%" id="bijoux3">
+      <div class="texte-gauche"> <p>Vous recherchez des bijoux uniques et raffinés pour sublimer votre beauté? Notre boutique est l'endroit idéal pour vous !
+      Que vous soyez à la recherche d'un collier délicat pour un événement spécial ou d'une bague audacieuse pour affirmer votre style, nous avons une large sélection de bijoux pour tous les goûts et tous les budgets.</p>
+      </div>
+    </ul>
+  </section>
+
+    <section class="produits">
+  <div class="container">
+    <h2>Nos Bijoux</h2>
+
+    <div class="filtres">
+      <form action="#">
+        <label for="categorie">Filtrer par catégorie</label>
+        <select id="categorie" name="categorie">
+          <option value="">Tous</option>
+          <option value="colliers">Colliers</option>
+          <option value="bracelets">Bracelets</option>
+          <option value="boucles-oreilles">Boucles d'oreilles</option>
+          <option value="bagues">Bagues</option>
+          <option value="accessoires">Accessoires</option>
+        </select>
+
+        <label for="prix-min">Prix minimum</label>
+        <input type="number" id="prix-min" name="prix-min">
+
+        <label for="prix-max">Prix maximum</label>
+        <input type="number" id="prix-max" name="prix-max">
+
+        <button type="submit">Filtrer</button>
+      </form>
+    </div>
+        <div class="liste-produits">
+          <div class="produit">
+            <img src="images/nairobi.PNG" alt="Bijou 1">
+            <h3>Nairobi</h3>
+            <p>Un fin collier en or blanc 18 carats ponctué d'une succession de diamants taille brillant, pour un éclat discret et raffiné.</p>
+            <p class="prix">Prix : 50€</p>
+            <a href="boutique.html" class="bouton">Ajouter au panier</a>
+          </div>
+          <div class="produit">
+            <img src="images/bague.jpg" alt="Bijou 1">
+            <h3>Naomi</h3>
+            <p>Bague solitaire en or rose 14 carats sertie d'une topaze blanche ovale, un mariage de couleurs romantique et élégant.</p>
+            <p class="prix">Prix : 120€</p>
+            <a href="boutique.html" class="bouton">Ajouter au panier</a>
+          </div>
+          <div class="produit">
+            <img src="images/montre.PNG" alt="Bijou 1">
+            <h3>Nairobi</h3>
+            <p>Montre-bracelet en acier inoxydable , un classique intemporel pour accessoiriser toutes vos tenues.</p>
+            <p class="prix">Prix : 99€</p>
+            <a href="boutique.html" class="bouton">Ajouter au panier</a>
+          </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="temoignages">
+      <div class="container">
+        <h2>Ce que nos clients disent de nous</h2>
+
+        <div class="temoignage">
+          <blockquote>
+            "J'ai acheté un collier et des boucles d'oreilles dans cette boutique et je suis ravie de la qualité des produits. Ils sont encore plus beaux qu'en photo !"
+          </blockquote>
+          <p>- Sarah L.</p>
+        </div>
+
+        <div class="temoignage">
+          <blockquote>
+            "Le service client est excellent. J'ai eu un problème avec ma commande et ils ont été très réactifs et arrangeants."
+          </blockquote>
+          <p>- Pierre D.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Ma Boutique de Bijoux</p>
+      <ul>
+        <li><a href="#">Conditions générales de vente</a></li>
+        <li><a href="#">Politique de confidentialité</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
